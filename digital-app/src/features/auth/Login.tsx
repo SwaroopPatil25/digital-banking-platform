@@ -9,7 +9,12 @@ import toast from "react-hot-toast";
 const Login = () => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
-  const { isLoading, loginError } = useAppSelector((state) => state.auth);
+  const {
+  isLoading = false,
+  loginError = null,
+} = useAppSelector(
+  (state) => state.auth ?? {}
+);
 
   type FormValues = { email: string; password: string };
   const pageName = "Log In";
