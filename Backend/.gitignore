@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Environment files (secrets)
+.env
+.env.development
+.env.production
+.env.test
+.env.local
+.env.*.local
+
+# Allow example
+!.env.example

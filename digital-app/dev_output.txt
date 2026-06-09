@@ -1,0 +1,50 @@
+[2m3:08:59 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+
+  [32m[1mVITE[22m v8.0.10[39m  [2mready in [0m[1m1054[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://10.227.248.20:[1m5173[22m/[39m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/api/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/api/auth.api.ts.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/api/axios.ts.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/api/beneficiary.api.ts.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/api/dashboard.api.ts.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/auth/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/auth/Login.tsx.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/notifications/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/notifications/notification.api.ts.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/notifications/components/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/notifications/components/NotificationBell.tsx.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/notifications/components/NotificationDropdown.tsx.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/features/notifications/components/NotificationItem.tsx.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/components/modals/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/components/modals/SessionExpiredModal.tsx.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/layout/index.html[22m
+[2m3:19:00 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/layout/AppLayout.tsx.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/layout/Footer.tsx.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/layout/Header.tsx.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/routes/index.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/shared/routes/ProtectedRoute.tsx.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/index.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/hooks.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/storage.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/store.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/middleware/index.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/middleware/cacheMiddleware.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/middleware/sessionMiddleware.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/index.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/activitySlice.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/appSlice.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/authSlice.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/beneficiarySlice.ts.html[22m
+[2m3:19:01 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/dashboardSlice.ts.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/notificationSlice.ts.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/store/slices/transactionSlice.ts.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/tests/setup/index.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/tests/setup/testUtils.tsx.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/utils/index.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/utils/apiHelpers.ts.html[22m
+[2m3:19:02 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/utils/token.ts.html[22m
+[2m5:49:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/api/auth.api.ts.html[22m
+[2m5:49:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mcoverage/lcov-report/tests/setup/testUtils.tsx.html[22m

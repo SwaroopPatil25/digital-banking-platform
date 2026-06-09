@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1780912142369" clover="3.2.0">
+  <project timestamp="1780912142371" name="All files">
+    <metrics statements="480" coveredstatements="387" conditionals="228" coveredconditionals="154" methods="150" coveredmethods="124" elements="858" coveredelements="665" complexity="0" loc="480" ncloc="480" packages="12" files="29" classes="29"/>
+    <package name="api">
+      <metrics statements="56" coveredstatements="29" conditionals="30" coveredconditionals="10" methods="12" coveredmethods="6"/>
+      <file name="auth.api.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\api\auth.api.ts">
+        <metrics statements="8" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="axios.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\api\axios.ts">
+        <metrics statements="42" coveredstatements="18" conditionals="30" coveredconditionals="10" methods="5" coveredmethods="2"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="18" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="6" type="cond" truecount="2" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="60" count="6" type="stmt"/>
+        <line num="67" count="9" type="stmt"/>
+        <line num="77" count="9" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="82" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="83" count="0" type="stmt"/>
+      </file>
+      <file name="beneficiary.api.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\api\beneficiary.api.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+      <file name="dashboard.api.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\api\dashboard.api.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.auth">
+      <metrics statements="27" coveredstatements="21" conditionals="18" coveredconditionals="13" methods="8" coveredmethods="6"/>
+      <file name="Login.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\features\auth\Login.tsx">
+        <metrics statements="27" coveredstatements="21" conditionals="18" coveredconditionals="13" methods="8" coveredmethods="6"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="12" type="stmt"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="11" count="18" type="stmt"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="38" count="12" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="12" type="stmt"/>
+        <line num="48" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.notifications">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="notification.api.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\features\notifications\notification.api.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="features.notifications.components">
+      <metrics statements="50" coveredstatements="46" conditionals="40" coveredconditionals="32" methods="20" coveredmethods="16"/>
+      <file name="NotificationBell.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\features\notifications\components\NotificationBell.tsx">
+        <metrics statements="25" coveredstatements="21" conditionals="10" coveredconditionals="6" methods="14" coveredmethods="10"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="26" type="stmt"/>
+        <line num="13" count="51" type="stmt"/>
+        <line num="14" count="26" type="stmt"/>
+        <line num="15" count="26" type="stmt"/>
+        <line num="17" count="26" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="21" count="26" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="26" count="26" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="33" count="26" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="39" count="8" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="43" count="26" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="47" count="26" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="26" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+      </file>
+      <file name="NotificationDropdown.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\features\notifications\components\NotificationDropdown.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+      </file>
+      <file name="NotificationItem.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\features\notifications\components\NotificationItem.tsx">
+        <metrics statements="20" coveredstatements="20" conditionals="24" coveredconditionals="20" methods="3" coveredmethods="3"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="18" count="5" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="8" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="8" type="stmt"/>
+        <line num="33" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="35" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
+        <line num="41" count="11" type="cond" truecount="3" falsecount="1"/>
+        <line num="42" count="11" type="cond" truecount="3" falsecount="1"/>
+        <line num="44" count="11" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="shared.components.modals">
+      <metrics statements="13" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="SessionExpiredModal.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\shared\components\modals\SessionExpiredModal.tsx">
+        <metrics statements="13" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.layout">
+      <metrics statements="17" coveredstatements="15" conditionals="8" coveredconditionals="7" methods="9" coveredmethods="7"/>
+      <file name="AppLayout.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\shared\layout\AppLayout.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="18" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+      </file>
+      <file name="Footer.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\shared\layout\Footer.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\shared\layout\Header.tsx">
+        <metrics statements="11" coveredstatements="9" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="3"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="19" type="stmt"/>
+        <line num="14" count="19" type="stmt"/>
+        <line num="15" count="37" type="cond" truecount="3" falsecount="0"/>
+        <line num="17" count="19" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="19" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="shared.routes">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="ProtectedRoute.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\shared\routes\ProtectedRoute.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+    <package name="store">
+      <metrics statements="27" coveredstatements="17" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="3"/>
+      <file name="hooks.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\hooks.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+      <file name="storage.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\storage.ts">
+        <metrics statements="19" coveredstatements="9" conditionals="4" coveredconditionals="1" methods="7" coveredmethods="2"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+      <file name="store.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\store.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="store.middleware">
+      <metrics statements="30" coveredstatements="16" conditionals="12" coveredconditionals="7" methods="8" coveredmethods="6"/>
+      <file name="cacheMiddleware.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\middleware\cacheMiddleware.ts">
+        <metrics statements="17" coveredstatements="11" conditionals="8" coveredconditionals="4" methods="5" coveredmethods="3"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="39" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="sessionMiddleware.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\middleware\sessionMiddleware.ts">
+        <metrics statements="13" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="store.slices">
+      <metrics statements="213" coveredstatements="193" conditionals="85" coveredconditionals="54" methods="68" coveredmethods="64"/>
+      <file name="activitySlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\activitySlice.ts">
+        <metrics statements="31" coveredstatements="30" conditionals="12" coveredconditionals="6" methods="10" coveredmethods="10"/>
+        <line num="32" count="7" type="stmt"/>
+        <line num="47" count="7" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="55" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="59" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="73" count="7" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="94" count="7" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="97" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="103" count="2" type="stmt"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="107" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="119" count="7" type="stmt"/>
+      </file>
+      <file name="appSlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\appSlice.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="9" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="43" count="7" type="stmt"/>
+      </file>
+      <file name="authSlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\authSlice.ts">
+        <metrics statements="37" coveredstatements="33" conditionals="4" coveredconditionals="3" methods="10" coveredmethods="10"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="7" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="7" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="80" count="2" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="85" count="2" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="92" count="7" type="stmt"/>
+      </file>
+      <file name="beneficiarySlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\beneficiarySlice.ts">
+        <metrics statements="34" coveredstatements="28" conditionals="19" coveredconditionals="11" methods="12" coveredmethods="10"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="38" count="4" type="cond" truecount="6" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="45" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="51" count="7" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="63" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="7" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="88" count="7" type="stmt"/>
+        <line num="90" count="5" type="stmt"/>
+        <line num="91" count="5" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="96" count="2" type="stmt"/>
+        <line num="99" count="4" type="stmt"/>
+        <line num="100" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="103" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="114" count="7" type="stmt"/>
+      </file>
+      <file name="dashboardSlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\dashboardSlice.ts">
+        <metrics statements="28" coveredstatements="25" conditionals="14" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="7" type="stmt"/>
+        <line num="50" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="7" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="78" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="83" count="7" type="stmt"/>
+      </file>
+      <file name="notificationSlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\notificationSlice.ts">
+        <metrics statements="31" coveredstatements="27" conditionals="11" coveredconditionals="9" methods="12" coveredmethods="10"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="28" count="8" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="31" count="8" type="cond" truecount="3" falsecount="0"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="7" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="7" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="7" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
+        <line num="68" count="9" type="stmt"/>
+        <line num="71" count="9" type="stmt"/>
+        <line num="72" count="9" type="stmt"/>
+        <line num="73" count="9" type="stmt"/>
+        <line num="74" count="9" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="94" count="7" type="stmt"/>
+      </file>
+      <file name="transactionSlice.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\store\slices\transactionSlice.ts">
+        <metrics statements="44" coveredstatements="42" conditionals="25" coveredconditionals="22" methods="12" coveredmethods="12"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+        <line num="40" count="7" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="58" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="72" count="7" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="85" count="7" type="stmt"/>
+        <line num="90" count="1" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="99" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="106" count="7" type="stmt"/>
+        <line num="108" count="3" type="stmt"/>
+        <line num="109" count="3" type="stmt"/>
+        <line num="112" count="3" type="stmt"/>
+        <line num="113" count="3" type="stmt"/>
+        <line num="114" count="3" type="stmt"/>
+        <line num="115" count="3" type="stmt"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="119" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="120" count="1" type="stmt"/>
+        <line num="123" count="2" type="stmt"/>
+        <line num="134" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.setup">
+      <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="testUtils.tsx" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\tests\setup\testUtils.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="36" count="18" type="stmt"/>
+        <line num="42" count="18" type="stmt"/>
+        <line num="51" count="18" type="stmt"/>
+        <line num="56" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="29" coveredstatements="28" conditionals="24" coveredconditionals="24" methods="6" coveredmethods="6"/>
+      <file name="apiHelpers.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\utils\apiHelpers.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="24" coveredconditionals="24" methods="2" coveredmethods="2"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="6" count="14" type="cond" truecount="4" falsecount="0"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="10" count="10" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="36" count="9" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+        <line num="38" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="39" count="7" type="stmt"/>
+        <line num="40" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="41" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="3" type="stmt"/>
+      </file>
+      <file name="token.ts" path="C:\Users\273803\Desktop\Digital Banking Platform\digital-app\src\utils\token.ts">
+        <metrics statements="13" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="10" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

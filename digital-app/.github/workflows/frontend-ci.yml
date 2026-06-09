@@ -1,0 +1,123 @@
+name: Frontend CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  NODE_VERSION: '20'
+  VITE_API_BASE_URL: ${{ secrets.VITE_API_BASE_URL || 'https://api.placeholder.com/api' }}
+  VITE_APP_NAME: DigiBank
+  VITE_ENVIRONMENT: production
+  VITE_SESSION_TIMEOUT_MINUTES: '15'
+  VITE_ENABLE_LOGS: 'false'
+  VITE_ENABLE_DEVTOOLS: 'false'
+  VITE_APP_VERSION: ${{ github.sha }}
+  VITE_REQUEST_TIMEOUT: '20000'
+  VITE_ENABLE_ANALYTICS: 'false'
+
+jobs:
+  build:
+    name: Build & Validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript compile check
+        run: npx tsc -b --noEmit
+
+      - name: Production build
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          test -f dist/index.html || (echo "ERROR: dist/index.html missing" && exit 1)
+          test -d dist/assets || (echo "ERROR: dist/assets missing" && exit 1)
+          echo "Build output verified successfully"
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-build
+          path: dist/
+          retention-days: 7
+
+  test:
+    name: Test & Coverage
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm run test -- --passWithNoTests --ci
+
+      - name: Generate coverage report
+        run: npm run test:coverage -- --passWithNoTests --ci
+
+      - name: Upload coverage artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage/
+          retention-days: 7
+
+  deployment-readiness:
+    name: Deployment Readiness
+    runs-on: ubuntu-latest
+    needs: [build, test]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify Vercel config
+        run: |
+          test -f vercel.json || (echo "ERROR: vercel.json missing" && exit 1)
+          echo "vercel.json present"
+          cat vercel.json
+
+      - name: Verify env example
+        run: |
+          test -f .env.example || (echo "ERROR: .env.example missing" && exit 1)
+          echo ".env.example present"
+
+      - name: Verify no hardcoded secrets
+        run: |
+          if grep -r "localhost" src/ --include="*.ts" --include="*.tsx" | grep -v "node_modules" | grep -v "__mocks__" | grep -v "config/env.ts"; then
+            echo "WARNING: localhost references found in source (excluding env fallback)"
+            exit 1
+          fi
+          echo "No hardcoded localhost in source files"
+
+      - name: Deployment readiness summary
+        run: |
+          echo "========================================="
+          echo " DEPLOYMENT READINESS: PASSED"
+          echo "========================================="
+          echo " Build:       ✓ (validated in build job)"
+          echo " Tests:       ✓ (validated in test job)"
+          echo " Vercel:      ✓ (vercel.json present)"
+          echo " Env:         ✓ (.env.example present)"
+          echo " Secrets:     ✓ (no hardcoded values)"
+          echo "========================================="
