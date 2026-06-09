@@ -11,7 +11,11 @@ interface AppLayoutProps {
 
 const AppLayout = ({ isAuthenticated, children }: AppLayoutProps) => {
   const sessionTimeoutModal = useAppSelector((state) => state.app.sessionTimeoutModal);
-  const sessionExpired = useAppSelector((state) => state.auth.sessionExpired);
+  const sessionExpired =
+  useAppSelector(
+    (state) =>
+      state.auth?.sessionExpired ?? false
+  );
 
   return (
     <div className="min-h-screen flex flex-col">
