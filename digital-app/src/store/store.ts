@@ -46,7 +46,7 @@ export const store = configureStore({
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
     }).concat(sessionMiddleware, cacheInvalidationMiddleware),
-  devTools: ENV.ENABLE_DEVTOOLS,
+  devTools: import.meta.env.DEV,
 });
 
 export const persistor = persistStore(store);
