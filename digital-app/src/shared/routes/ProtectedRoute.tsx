@@ -6,14 +6,23 @@ interface ProtectedRouteProps {
   children?: ReactNode;
 }
 
-const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
-  const isAuthenticated = useAppSelector((state) => state.auth.isAuthenticated);
+const ProtectedRoute = ({
+  children,
+}: ProtectedRouteProps) => {
+  const isAuthenticated = useAppSelector(
+    (state) =>
+      state.auth?.isAuthenticated ?? false
+  );
 
   if (!isAuthenticated) {
     return <Navigate to="/" replace />;
   }
 
-  return children ? <>{children}</> : <Outlet />;
+  return children ? (
+    <>{children}</>
+  ) : (
+    <Outlet />
+  );
 };
 
 export default ProtectedRoute;
