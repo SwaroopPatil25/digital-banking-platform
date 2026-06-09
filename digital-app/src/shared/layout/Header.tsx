@@ -12,7 +12,13 @@ interface HeaderProps {
 const Header = ({ isAuthenticated }: HeaderProps) => {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
-  const username = useAppSelector((state) => state.auth.user?.username) || localStorage.getItem("username") || "User";
+  const username =
+  useAppSelector(
+    (state) =>
+      state.auth?.user?.username
+  ) ||
+  localStorage.getItem("username") ||
+  "User";
 
   const handleLogout = () => {
     dispatch(logoutUser());
