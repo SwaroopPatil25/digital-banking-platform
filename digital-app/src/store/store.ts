@@ -10,7 +10,6 @@ import beneficiaryReducer from "./slices/beneficiarySlice";
 import activityReducer from "./slices/activitySlice";
 import { sessionMiddleware } from "./middleware/sessionMiddleware";
 import { cacheInvalidationMiddleware } from "./middleware/cacheMiddleware";
-import { ENV } from "../config/env";
 
 /**
  * Persist config — only safe global state.
