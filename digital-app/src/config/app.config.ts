@@ -21,7 +21,7 @@ export const APP_CONFIG = {
 
   features: {
     logs: ENV.ENABLE_LOGS,
-    devtools: ENV.ENABLE_DEVTOOLS,
+    devtools: import.meta.env.DEV,
     analytics: ENV.ENABLE_ANALYTICS,
   },
 } as const;
